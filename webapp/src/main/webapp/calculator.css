@@ -1,0 +1,30 @@
+.calculator{
+    border: 7px solid black;
+    width:fit-content;
+    background-color: burlywood;
+}
+.display{
+    padding: 30px;
+    margin: 10px;
+    text-align: right;
+    width: 200px;
+    justify-self: center;
+    background-color: cornsilk;
+
+}
+.buttons{
+    text-align: center;
+ 
+}
+button{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size:x-large;
+}
+button:hover {
+    cursor: pointer;
+  }
+#equals{
+    width: 100px;
+}

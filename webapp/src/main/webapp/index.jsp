@@ -1,56 +1,48 @@
-<h1> SHAMUKE is a girl </h1
-
 <!DOCTYPE html>
-   <main>
-      <img src="https://res.cloudinary.com/soares04/image/upload/v1566492008/uxxbl8xkagqeo9h00pl8.jpg" alt="Picture" width="250px" height="250px"/><hr/>
-    <head>
-      <h1 style="text-align: center">MY-CV</h1>
-    </head>
-      <hr/>
-      <body>
-      <h2>Soares Dolapo</h2>
-        <p>No 3, lateef Dosumu street,lfako Gbagada Lagos.<p>
-        <p><strong>+2348088644250</strong></p>
-        <p><strong>soaresdolapo@gmail.com</strong></p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+    
+            <input type="text" name="display" class="display" id="display" disabled> 
 
-     <hr/>
-
-      <h3>Skills</h3>
-      <p><ul>
-          <li>Autocad 3D.</li>
-          <li>Analytical Skills.</li>
-          <li>Ability to learn fast.</li>
-          </ul>
-        </p>
-        <h3>Experience</h3><br>
-        <p>2017 - February</p>
-        <p><strong>WORLD HEALTH ORGANIZATION</strong> - Independent monitor.</p>
-        <p>
-          <ul>
-          <li>Did a survey in the southern part of calabar to see how many households knew about vaccines.</li>
-          </ul>
-        </p><br>
-        <p>2016(JUNE) - 2017(MAY)</p>
-        <p><strong>CALABAR SOUTH ANANTIGHA LOCAL GOVERNMENT</strong> - NYSC</p>
-        <p></p>
-          <ul>
-            <li>I worked with the Engineering Department.</li>
-          </ul>
-        </p><br/>
-        <p>2013 - April</p>
-        <p><strong>AUTOMEDICS SYSTEM VENTURE</strong> - Internship.</p>
-        <p>
-          <ul>
-            <li>Worked on various vehicles  and how to maintain repairs in the vehicle.</li>
-          </ul>
-        </p>
-    </body>
-    <hr/>
-    <footer>
-        <h3>EDUCATION</h3><br>
-        <p>November(2009) - May(2015)</p>
-        <p><strong>UNIVERSITY OF LAGOS</strong> - B.Sc Mechanical Engineering.</p>
-    </footer>
-
-</main>
-</html>>
+        <div  class="buttons">
+        <div>
+            <button id="seven" class="number" value="7">7</button>
+            <button id="eight" class="number" value="8">8</button>
+            <button id="nine" class="number" value="9">9</button>
+            <button id="multiply" class="operator" value="*">x</button>
+        </div>
+        <div>
+            <button id="four" class="number" value="4">4</button>
+            <button id="five" class="number" value="5">5</button>
+            <button id="six" class="number" value="6">6</button>
+            <button id="minus" class="operator" value="-">-</button>
+        </div>
+        <div>
+            <button id="one" class="number" value="1">1</button>
+            <button id="two" class="number" value="2">2</button>
+            <button id="three" class="number" value="3">3</button>
+            <button id="add" class="operator" value="+">+</button>
+        </div>
+        <div>
+            <button id="clear" class="operator" value="C">C</button>
+            <button id="zero" class="number" value="0">0</button>
+            <button id="decimal" class="number" value=".">.</button>
+            <button id="division" class="operator" value="/">/</button>
+        </div>
+        <div>
+            <button id="equals" class= "operator" value="=">=</button>
+        </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
